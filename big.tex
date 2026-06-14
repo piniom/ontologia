@@ -1,0 +1,361 @@
+\documentclass{beamer}
+\usepackage{amsmath, amsfonts}
+\usepackage{listings}
+ 
+ 
+\usepackage{amsmath, amsfonts}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{lmodern}  
+% Polish language and UTF-8 support
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{caption}
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+ 
+\newcommand{\EFL}{Erdős-Faber-Lovász }
+ 
+\title[Enhanced Beamer Demo]{\Large{DOŚWIADCZENIE ISTNIENIA} \\ \vspace{1em}
+Czy autentyczność egzystencji jest problemem ontycznym czy ontologicznym?}
+\author{Jakub Wingorowicz, Antoni Wojtasik, Szymon Wojtulewicz}
+\date{15 czerwca 2026}
+ 
+\usetheme{default}
+ 
+\usefonttheme{professionalfonts}
+ 
+ 
+\definecolor{accent}{RGB}{130,160,255}
+\definecolor{blockbg}{RGB}{240,240,245}
+\definecolor{blockborder}{RGB}{220,220,220}
+ 
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[default]
+ 
+ 
+\setbeamercolor{block title}{fg=black,bg=blockbg}
+\setbeamercolor{block body}{bg=blockbg}
+% \setbeamerfont{block title}{series=\sffamily\bfseries}
+ 
+\definecolor{codebg}{RGB}{250,250,250}
+\definecolor{keywordcolor}{RGB}{70,110,200}
+\definecolor{stringcolor}{RGB}{200,130,130}
+\definecolor{commentcolor}{RGB}{140,180,140}
+ 
+\lstset{
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{keywordcolor}\bfseries,
+  stringstyle=\color{stringcolor},
+  commentstyle=\color{commentcolor}\itshape,
+  frame=single,
+  breaklines=true,
+  showstringspaces=false,
+  tabsize=2
+}
+ 
+ 
+\begin{document}
+ 
+\frame{\titlepage}
+ 
+% ---------------------------------------------------------------
+% CZĘŚĆ I — RAMA POJĘCIOWA
+% ---------------------------------------------------------------
+ 
+\begin{frame}{Teza}
+  \large
+  \begin{block}{}
+    Filozoficzne wyjaśnienie tego, \emph{jak rozpoznać prawdziwe ja},
+    jest niemal niemożliwe do sformułowania.
+  \end{block}
+  \vspace{1em}
+  Każda próba wskazania prawdziwego ja prowadzi do jednego z trzech wyników:
+  \begin{itemize}
+    \item regresu,
+    \item błędnego koła,
+    \item kontrowersyjnych założeń metafizycznych.
+  \end{itemize}
+\end{frame}
+ 
+\begin{frame}{Trzy podejścia do autentyczności}
+  \huge {
+    \begin{enumerate}
+      \item Ontologiczne
+      \item Ontyczne
+      \item Etyczne
+    \end{enumerate}
+  }
+\end{frame}
+ 
+\begin{frame}{Krytyka podejścia ontologicznego}
+  \huge {
+    \begin{enumerate}
+      \item Problem Własnościowy
+      \item Problem Logiczny
+      \item Problem Czasowy
+    \end{enumerate}
+  }
+\end{frame}
+ 
+% ---------------------------------------------------------------
+% TRZY PROBLEMY — ROZWINIĘCIE
+% ---------------------------------------------------------------
+ 
+\begin{frame}{Problem Czasowy --- autentyczność jako oryginalność historyczna}
+  \begin{itemize}
+    \item Coś jest autentyczne, gdy zachowuje ciągłość z bytem historycznym.
+    \item Kategoria temporalna: sens pojawia się dopiero z upływem czasu
+          i przy możliwości fałszerstwa.
+    \item Przeniesiona na osobę rodzi pytanie: \emph{który moment życia} jest
+          punktem odniesienia?
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Dylemat}
+    Bardziej autentyczny jest człowiek młody i spontaniczny czy dojrzały,
+    po procesie samorozwoju? Autentyczność nie jest prostym powrotem do
+    przeszłości --- a tę intuicję definicja podważa.
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Problem Własnościowy --- autentyczność jako przeciwieństwo fałszu}
+  \begin{itemize}
+    \item Prawdziwa perła vs.\ podróbka: decyduje źródło i natura, nie wiek.
+    \item Zastosowane do osoby zakłada istnienie \emph{fałszywego ja},
+          podszywającego się pod właściwą osobę.
+    \item Sytuacja możliwa tylko w eksperymentach myślowych: klony,
+          bliźniacze światy, doskonałe kopie.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Błędne koło}
+    Aby wskazać instancję autentyczną, potrzebujemy cechy odróżniającej ---
+    zwykle pierwszeństwa czasowego lub genealogicznego. To powrót do
+    \emph{problemu czasowego}.
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Problem Logiczny --- autentyczność jako wierność sobie}
+  \begin{itemize}
+    \item Najpowszechniejsze znaczenie: być uczciwym i wiernym sobie.
+    \item Paradoks (Berman): jeśli autentyczność to \emph{bycie sobą}, to czym
+          jest nieautentyczność? W jaki sposób można nie być sobą?
+    \item Idea narusza zasadę \(A = A\) --- każdy jest sobą niezależnie od tego,
+          czy jest szczery, czy zakłamany.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Różnica wobec rzeczy}
+    Dla pereł i zabytków wiemy, jakie dane rozstrzygają o autentyczności.
+    Dla osób takich danych nie ma --- ocena staje się aktem interpretacji
+    (problem epistemiczny \emph{i} metafizyczny).
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Problem zmiennego i stającego się ja}
+  \begin{itemize}
+    \item Rousseau i Nietzsche: człowiek nie jest bytem statycznym.
+    \item W przeciwieństwie do przedmiotów osoba \emph{nieustannie staje się} sobą.
+    \item Autentyczność zdaje się wymagać trwałej tożsamości, której można
+          być wiernym\ldots
+    \item \ldots tymczasem egzystencja to ciągła zmiana i reinterpretacja
+          własnej przeszłości.
+  \end{itemize}
+  \vspace{0.5em}
+  Im mocniej podkreślamy dynamikę życia, tym trudniej wskazać niezmienne
+  centrum osobowości pełniące funkcję ,,prawdziwego ja''.
+\end{frame}
+ 
+% ---------------------------------------------------------------
+% EGZYSTENCJALIZM
+% ---------------------------------------------------------------
+ 
+\begin{frame}{Odpowiedź egzystencjalizmu (Heidegger, Sartre)}
+  \begin{itemize}
+    \item Odrzucenie tradycyjnej idei ukrytej esencji --- przy zachowaniu
+          pojęcia autentyczności.
+    \item Autentyczność to nie odkrycie prawdziwego ja, lecz \emph{sposób życia}.
+    \item Człowiek autentyczny uznaje własną wolność, odpowiedzialność
+          i skończoność.
+    \item Heidegger: chodzi o wierność strukturze ludzkiego bycia (Dasein),
+          a nie indywidualnej naturze.
+  \end{itemize}
+\end{frame}
+ 
+\begin{frame}{Granice egzystencjalizmu}
+  \begin{itemize}
+    \item Guignon: zachowany zostaje motyw \emph{ukrytego źródła}, któremu należy
+          pozostać wiernym.
+    \item Źródłem nie jest jednostka, lecz czasowa struktura istnienia jako takiego.
+    \item Efekt: esencjalizm przeniesiony z poziomu jednostki na poziom gatunku.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Paradoks}
+    Egzystencjalizm jednocześnie odrzuca ideę prawdziwego ja
+    i potrzebuje jej odpowiednika, by zachować sens autentyczności.
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Autentyczność a wartości obiektywne}
+  \begin{itemize}
+    \item Taylor, Varga, Cottingham: autentyczność jako ideał charakteru
+          zakorzeniony w obiektywnych wartościach.
+    \item Pozwala uniknąć radykalnego subiektywizmu --- rozwijanie siebie
+          wobec wartości, a nie ekspresja dowolnych pragnień.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Pytanie, które pozostaje}
+    Dlaczego \emph{ten} zestaw wartości miałby ujawniać moje prawdziwe ja
+    bardziej niż jakikolwiek inny? Problem identyfikacji nie znika ---
+    przybiera nową formę.
+  \end{block}
+\end{frame}
+ 
+% ---------------------------------------------------------------
+% CZĘŚĆ II — PROPOZYCJA NIEESENCJALISTYCZNA
+% ---------------------------------------------------------------
+ 
+\begin{frame}
+  \centering
+  \vfill
+  {\Huge W stronę nieesencjalistycznej\\[0.3em] koncepcji autentyczności}
+  \vfill
+  {\large Część II}
+  \vfill
+\end{frame}
+ 
+\begin{frame}{Buddyjska krytyka ,,prawdziwego ja'' --- \emph{anattā}}
+  \begin{itemize}
+    \item Buddyzm odrzuca ideę wiecznej i niezmiennej jaźni.
+    \item ,,Ja'' to nie substancja ani dusza, lecz konwencjonalna nazwa
+          dynamicznego zespołu procesów psychofizycznych.
+  \end{itemize}
+  \vspace{0.5em}
+  Cztery cechy stanowiska:
+  \begin{enumerate}
+    \item nondualizm ontologiczny,
+    \item pragmatyzm epistemologiczny (rola praktyki kontemplacyjnej),
+    \item tożsamość procesualna, nietrwała, współzależna,
+    \item cel: wyzwolenie od cierpienia, nie odkrycie metafizycznej prawdy.
+  \end{enumerate}
+  \vspace{0.3em}
+  Autentyczność zaczyna się tam, gdzie porzucamy iluzję trwałego ja.
+\end{frame}
+ 
+\begin{frame}{Pięć skupisk (skandh)}
+  Osoba jako zbiór pięciu procesów --- żaden nie jest trwałym rdzeniem:
+  \begin{enumerate}
+    \item forma cielesna,
+    \item uczucia,
+    \item percepcja,
+    \item formacje mentalne,
+    \item świadomość.
+  \end{enumerate}
+  \vspace{0.5em}
+  \begin{block}{Wniosek}
+    Jaźń jest \emph{procesem}, a nie rzeczą.
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Kognitywistyczny obraz jaźni}
+  \begin{itemize}
+    \item Brak pojedynczego, centralnego podmiotu sterującego zachowaniem.
+    \item Rozproszone, dynamiczne procesy neuronalne integrują informacje
+          sensoryczne, motoryczne, emocjonalne i poznawcze.
+    \item W mózgu nie ma ,,siedliska'' trwałej tożsamości --- jest ona
+          \emph{funkcjonalnym osiągnięciem} systemu poznawczego.
+    \item Jaźń narracyjna: opowieść o sobie tworzona dzięki pamięci
+          autobiograficznej i językowi.
+    \item Sieć trybu domyślnego (DMN): autorefleksja, wspomnienia,
+          wyobrażanie przyszłości.
+  \end{itemize}
+  \vspace{0.3em}
+  \footnotesize Korelat neuronalny \(\neq\) ontologiczny fundament.
+\end{frame}
+ 
+\begin{frame}{Relacyjny charakter samorozumienia}
+  \begin{itemize}
+    \item Teoria umysłu: rozumienie siebie i rozumienie innych opiera się
+          częściowo na tych samych procesach.
+    \item Samowiedza nie jest izolowaną introspekcją --- powstaje w relacjach,
+          dialogu, języku i kulturze.
+    \item Jaźń jako \emph{model} tworzony przez mózg w celu organizowania
+          doświadczeń i koordynowania zachowania.
+    \item Tożsamość współkonstruowana przez jednostkę i jej środowisko społeczne.
+  \end{itemize}
+\end{frame}
+ 
+\begin{frame}{Lekcja postmodernizmu}
+  \begin{itemize}
+    \item Derrida: tożsamość konstytuuje się przez różnicę i odraczanie znaczeń.
+    \item Foucault: podmiot kształtowany przez praktyki dyskursywne
+          i relacje władzy.
+    \item Butler: tożsamość jako powtarzane akty performatywne reprodukujące normy.
+  \end{itemize}
+  \vspace{0.5em}
+  Bliskość buddyjskiej krytyki substancjalnego ja, ale\ldots
+  \begin{block}{Trudność}
+    Jeśli podmiot jest wyłącznie efektem dyskursu i władzy, autentyczność
+    grozi staniem się pojęciem pustym lub jedynie grą społeczną.
+  \end{block}
+\end{frame}
+ 
+% ---------------------------------------------------------------
+% PROPOZYCJA: AUTENTYCZNOŚĆ JAKO PRAKTYKA (PODEJŚCIE ETYCZNE)
+% ---------------------------------------------------------------
+ 
+\begin{frame}{Autentyczność jako praktyka (podejście etyczne)}
+  \begin{itemize}
+    \item Nie ma pojedynczego, niezmiennego ja do odkrycia.
+    \item Ale całkowita rezygnacja z podmiotowości = utrata sensu
+          odpowiedzialności, integralności i rozwoju.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Propozycja}
+    Autentyczność to nie odkrywanie tego, kim jesteśmy, lecz sposób
+    \emph{odnoszenia się} do dynamicznego procesu, którym jesteśmy.
+  \end{block}
+  \vspace{0.3em}
+  Obejmuje: krytyczną autorefleksję, otwartość na korektę przekonań,
+  świadomość uwarunkowań oraz działanie zgodne z wartościami.
+\end{frame}
+ 
+\begin{frame}{Ontyczny czy ontologiczny problem?}
+  \begin{itemize}
+    \item \textbf{Podejście ontologiczne} --- prawdziwe ja jako byt do odkrycia
+          (esencja jednostki lub struktura Dasein). \\
+          \footnotesize Upada na problemach: własnościowym, logicznym, czasowym.
+    \item \normalsize \textbf{Wspólne założenie} obu wersji: ,,ukryte źródło'',
+          któremu trzeba być wiernym.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{Odpowiedź}
+    Autentyczność egzystencji nie jest ostatecznie ani faktem ontycznym,
+    ani strukturą ontologiczną --- jest \emph{praktyką etyczną}
+    świadomego uczestnictwa w procesie stawania się.
+  \end{block}
+\end{frame}
+ 
+\begin{frame}{Zakończenie}
+  \begin{itemize}
+    \item Tożsamość jest \emph{procesem}, a nie substancją.
+    \item Zachowujemy to, co cenne w ideale autentyczności: dążenie do
+          integralności, szczerości i odpowiedzialności.
+    \item Odrzucamy problematyczne założenie metafizycznego ,,prawdziwego ja''.
+  \end{itemize}
+  \vspace{0.5em}
+  \begin{block}{}
+    Autentyczności się nie odkrywa --- autentyczność się \emph{praktykuje}.
+    Bez metafizycznego esencjalizmu i bez normatywnego nihilizmu.
+  \end{block}
+\end{frame}
+ 
+\end{document}
+ 
