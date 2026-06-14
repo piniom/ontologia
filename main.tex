@@ -1,0 +1,90 @@
+\documentclass{beamer}
+\usepackage{amsmath, amsfonts}
+\usepackage{listings}
+
+
+\usepackage{amsmath, amsfonts}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{lmodern}  
+% Polish language and UTF-8 support
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{caption}
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\newcommand{\EFL}{Erdős-Faber-Lovász }
+
+\title[Enhanced Beamer Demo]{\Large{DOŚWIADCZENIE ISTNIENIA} \\ \vspace{1em}
+Czy autentyczność egzystencji jest problemem ontycznym czy ontologicznym?}
+\author{Jakub Wingorowicz, Antoni Wojtasik, Szymon Wojtulewicz}
+\date{15 czerwca 2026}
+
+\usetheme{default}
+
+\usefonttheme{professionalfonts}
+
+
+\definecolor{accent}{RGB}{130,160,255}
+\definecolor{blockbg}{RGB}{240,240,245}
+\definecolor{blockborder}{RGB}{220,220,220}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[default]
+
+
+\setbeamercolor{block title}{fg=black,bg=blockbg}
+\setbeamercolor{block body}{bg=blockbg}
+% \setbeamerfont{block title}{series=\sffamily\bfseries}
+
+\definecolor{codebg}{RGB}{250,250,250}
+\definecolor{keywordcolor}{RGB}{70,110,200}
+\definecolor{stringcolor}{RGB}{200,130,130}
+\definecolor{commentcolor}{RGB}{140,180,140}
+
+\lstset{
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{keywordcolor}\bfseries,
+  stringstyle=\color{stringcolor},
+  commentstyle=\color{commentcolor}\itshape,
+  frame=single,
+  breaklines=true,
+  showstringspaces=false,
+  tabsize=2
+}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Trzy podejścia do autentyczności}
+  \huge {
+    \begin{enumerate}
+      \item Ontologiczne
+      \item Ontyczne
+      \item Etyczne
+    \end{enumerate}
+  }
+\end{frame}
+
+\begin{frame}{Krytyka podejścia ontologicznego}
+  \huge {
+    \begin{enumerate}
+      \item Problem Własnościowy
+      \item Problem Logiczny
+      \item Problem Czasowy
+    \end{enumerate}
+  }
+\end{frame}
+\end{document}
